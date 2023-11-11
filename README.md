@@ -33,7 +33,7 @@ $ python download_datasets.py
 
 ```
 # run the testing python file
-python test_LightRoseTTA_from_fasta.py [FASTA_folder_path] [data_write_path] [Uniref30_dataset_path]  [pdb100_dataset_path] [BFD_dataset_path] [model_file_path]
+python test_script.py [FASTA_folder_path] [data_write_path] [Uniref30_dataset_path]  [pdb100_dataset_path] [BFD_dataset_path] [model_file_path]
 	
 -FASTA_folder_path: the path of folder containing FASTA files
 -data_write_path: the path of folder to write generated data
