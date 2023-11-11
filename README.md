@@ -44,10 +44,10 @@ python test_script.py [FASTA_folder_path] [data_write_path] [Uniref30_dataset_pa
 
 For example,
 # for general proteins
-python test_LightRoseTTA_from_fasta.py ./Orphan25_fasta ./Orphan25_data ./Uniref30_2020_06 ./pdb100_2021Mar03 ./BFD ./weights/LightRoseTTA.pth
+python test_script.py ./Orphan25_fasta ./Orphan25_data ./Uniref30_2020_06 ./pdb100_2021Mar03 ./BFD ./weights/LightRoseTTA.pth
 
 # for antibodies
-python test_LightRoseTTA_from_fasta.py ./Antibody_fasta ./Antibody_data ./Uniref30_2020_06 ./pdb100_2021Mar03 ./BFD ./weights/LightRoseTTA-Ab.pth
+python test_script.py ./Antibody_fasta ./Antibody_data ./Uniref30_2020_06 ./pdb100_2021Mar03 ./BFD ./weights/LightRoseTTA-Ab.pth
 
 The output "*.pdb" files are located in "data_write_path/predict_pdb" (e.g. Orphan25_data/predict_pdb)
 ```
