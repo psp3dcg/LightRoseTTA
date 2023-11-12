@@ -52,7 +52,9 @@ python test_script.py ./Antibody_fasta ./Antibody_data ./Uniref30_2020_06 ./pdb1
 The output "*.pdb" files are located in "data_write_path/predict_pdb" (e.g. Orphan25_data/predict_pdb)
 ```
 
+## References
 
+X Wang, et al., LightRoseTTA: High-efficient and Accurate Protein Structure Prediction Using an Ultra-Lightweight Deep Graph Model, bioRxiv (2023).
 
 
 
