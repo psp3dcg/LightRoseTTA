@@ -20,7 +20,10 @@ def preprocess_data(fasta_path, write_base_path,
     
     if not os.path.exists(write_path):
         os.mkdir(write_path)
-
+	    
+    if os.path.exists(os.path.join(write_base_path, 'processed')):
+	return
+	    
     seq_search_db = os.path.join(seq_db_base_path, "UniRef30_2020_06")
     templ_search_db = os.path.join(templ_db_base_path, "pdb100_2021Mar03")
     big_seq_search_db = os.path.join(big_seq_db_base_path, "bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt")
