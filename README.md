@@ -29,9 +29,9 @@ $ python download_datasets.py
 
 ```
 
-5. Download the test datasets
+## Download the test datasets
 
-download [test datasets](https://drive.google.com/drive/folders/1n_RgI_OpyPHOEQw7P8K9H01f5guVpxhv?usp=sharing)
+download [test datasets](https://drive.google.com/drive/folders/1n_RgI_OpyPHOEQw7P8K9H01f5guVpxhv?usp=sharing) from google drive
 
 
 
