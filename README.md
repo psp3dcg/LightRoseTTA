@@ -60,7 +60,7 @@ The output "*.pdb" files are located in "data_write_path/predict_pdb" (e.g. Orph
 
 ## References
 
-X Wang, et al., LightRoseTTA: High-efficient and Accurate Protein Structure Prediction Using an Ultra-Lightweight Deep Graph Model, bioRxiv (2023).
+X Wang, et al., LightRoseTTA: High-efficient and Accurate Protein Structure Prediction Using an Ultra-Lightweight Deep Graph Model, bioRxiv 10.1101/2023.11.20.566676 (2023).
 
 
 
