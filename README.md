@@ -35,7 +35,7 @@ Download the [test datasets](https://drive.google.com/drive/folders/1n_RgI_OpyPH
 
 
 
-## Usage
+## Testing steps
 
 ```
 # run the testing python file
