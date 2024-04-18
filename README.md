@@ -58,6 +58,20 @@ python test_script.py ./Antibody_fasta ./Antibody_data ./Uniref30_2020_06 ./pdb1
 The output "*.pdb" files are located in "data_write_path/predict_pdb" (e.g. Orphan25_data/predict_pdb)
 ```
 
+## Training steps
+```
+# prepare the training data provided by LightRoseTTA_preprocess_train_data
+(a) download the LightRoseTTA_preprocess_train_data.zip and unzip it
+(b) prepare the ".fasta" files and corresponding ".pdb" files
+(c) cd "LightRoseTTA_preprocess_train_data" folder and generate data following the README.md
+
+# run the training python file
+(a) download the LightRoseTTA_train_data.zip and unzip it
+(b) cd "LightRoseTTA_preprocess_train_data" folder
+(c) python LightRoseTTA_train.py -dataset [training_data_path]
+ps: training_data_path should include "raw" folder and "processed" folder
+```
+
 ## References
 
 X Wang, et al., LightRoseTTA: High-efficient and Accurate Protein Structure Prediction Using an Ultra-Lightweight Deep Graph Model, bioRxiv 10.1101/2023.11.20.566676 (2023).
