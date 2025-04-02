@@ -66,7 +66,7 @@ The output "*.pdb" files are located in "data_write_path/predict_pdb" (e.g. Orph
 (c) cd "LightRoseTTA_preprocess_train_data" folder and generate data following the README.md
 
 # run the training python file
-(a) download the LightRoseTTA_train_data.zip and unzip it
+(a) download the LightRoseTTA_preprocess_train_data.zip and unzip it
 (b) cd "LightRoseTTA_preprocess_train_data" folder
 (c) python LightRoseTTA_train.py -dataset [training_data_path]
 ps: training_data_path should include "raw" folder and "processed" folder
