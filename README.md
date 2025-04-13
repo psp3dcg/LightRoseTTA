@@ -82,7 +82,7 @@ ps: training_data_path should include "raw" folder and "processed" folder
 ```
 
 ## References
-
+```
 @article{wang2025lightrosetta,
   title={LightRoseTTA: High-Efficient and Accurate Protein Structure Prediction Using a Light-Weight Deep Graph Model},
   author={Wang, Xudong and Zhang, Tong and Liu, Guangbu and Cui, Zhen and Zeng, Zhiyong and Long, Cheng and Zheng, Wenming and Yang, Jian},
@@ -91,7 +91,7 @@ ps: training_data_path should include "raw" folder and "processed" folder
   year={2025},
   publisher={Wiley Online Library}
 }
-
+```
 
 
 
