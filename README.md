@@ -65,21 +65,32 @@ Download the [[train dataset](https://drive.google.com/file/d/1HYIZHXyB30adqkKUO
 
 ## Training steps
 ```
-# prepare the training data provided by LightRoseTTA_preprocess_train_data
+# using LightRoseTTA train dataset
+(a) download the LightRoseTTA_train_data.tar.gz from the given google drive link.
+(b) uncompress the download file.
+
+# build your own train dataset
 (a) download the LightRoseTTA_preprocess_train_data.zip and unzip it
 (b) prepare the ".fasta" files and corresponding ".pdb" files
 (c) cd "LightRoseTTA_preprocess_train_data" folder and generate data following the README.md
 
 # run the training python file
-(a) download the LightRoseTTA_preprocess_train_data.zip and unzip it
-(b) cd "LightRoseTTA_preprocess_train_data" folder
+(a) download the LightRoseTTA_training_code.zip and unzip it
+(b) cd "LightRoseTTA_training_code" folder
 (c) python LightRoseTTA_train.py -dataset [training_data_path]
 ps: training_data_path should include "raw" folder and "processed" folder
 ```
 
 ## References
 
-X Wang, et al., LightRoseTTA: High-efficient and Accurate Protein Structure Prediction Using an Ultra-Lightweight Deep Graph Model, bioRxiv 10.1101/2023.11.20.566676 (2023).
+@article{wang2025lightrosetta,
+  title={LightRoseTTA: High-Efficient and Accurate Protein Structure Prediction Using a Light-Weight Deep Graph Model},
+  author={Wang, Xudong and Zhang, Tong and Liu, Guangbu and Cui, Zhen and Zeng, Zhiyong and Long, Cheng and Zheng, Wenming and Yang, Jian},
+  journal={Advanced Science},
+  pages={2309051},
+  year={2025},
+  publisher={Wiley Online Library}
+}
 
 
 
