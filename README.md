@@ -60,7 +60,7 @@ The output "*.pdb" files are located in "data_write_path/predict_pdb" (e.g. Orph
 ```
 
 ## Train dataset
-Download the [[train dataset](https://drive.google.com/drive/folders/1n_RgI_OpyPHOEQw7P8K9H01f5guVpxhv?usp=sharing)](https://drive.google.com/file/d/1HYIZHXyB30adqkKUO7Fe5m4bT_6nFvTX/view?usp=drive_link) from google drive
+Download the [[train dataset](https://drive.google.com/file/d/1HYIZHXyB30adqkKUO7Fe5m4bT_6nFvTX/view?usp=drive_link)] from google drive
 
 
 ## Training steps
