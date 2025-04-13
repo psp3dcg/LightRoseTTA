@@ -29,6 +29,7 @@ $ python download_datasets.py
 
 ```
 
+
 ## Test datasets
 
 Download the [test datasets](https://drive.google.com/drive/folders/1n_RgI_OpyPHOEQw7P8K9H01f5guVpxhv?usp=sharing) from google drive
@@ -57,6 +58,10 @@ python test_script.py ./Antibody_fasta ./Antibody_data ./Uniref30_2020_06 ./pdb1
 
 The output "*.pdb" files are located in "data_write_path/predict_pdb" (e.g. Orphan25_data/predict_pdb)
 ```
+
+## Train dataset
+Download the [[train dataset](https://drive.google.com/drive/folders/1n_RgI_OpyPHOEQw7P8K9H01f5guVpxhv?usp=sharing)](https://drive.google.com/file/d/1HYIZHXyB30adqkKUO7Fe5m4bT_6nFvTX/view?usp=drive_link) from google drive
+
 
 ## Training steps
 ```
